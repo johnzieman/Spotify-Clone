@@ -1,4 +1,4 @@
-package com.lockwoodpublishing.telegram_clone
+package com.johnzieman.spotify
 
 import androidx.test.platform.app.InstrumentationRegistry
 import androidx.test.ext.junit.runners.AndroidJUnit4

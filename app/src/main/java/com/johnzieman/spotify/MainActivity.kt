@@ -1,8 +1,8 @@
-package com.lockwoodpublishing.telegram_clone
+package com.johnzieman.spotify
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.lockwoodpublishing.telegram_clone.databinding.ActivityMainBinding
+import com.johnzieman.spotify.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
     private lateinit var mBinding: ActivityMainBinding

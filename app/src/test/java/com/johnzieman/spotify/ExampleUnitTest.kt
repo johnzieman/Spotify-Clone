@@ -1,4 +1,4 @@
-package com.lockwoodpublishing.telegram_clone
+package com.johnzieman.spotify
 
 import org.junit.Test
 
