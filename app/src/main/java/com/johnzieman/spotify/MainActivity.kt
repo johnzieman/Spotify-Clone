@@ -2,14 +2,19 @@ package com.johnzieman.spotify
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import com.johnzieman.spotify.databinding.ActivityMainBinding
+import com.bumptech.glide.Glide
+import com.bumptech.glide.RequestManager
+import dagger.hilt.android.AndroidEntryPoint
+import javax.inject.Inject
 
+@AndroidEntryPoint
 class MainActivity : AppCompatActivity() {
-    private lateinit var mBinding: ActivityMainBinding
+
+    @Inject
+    lateinit var glide: RequestManager
+
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        mBinding = ActivityMainBinding.inflate(layoutInflater)
-
-        setContentView(mBinding.root)
+        setContentView(R.layout.activity_main)
     }
 }
